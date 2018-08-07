@@ -1,0 +1,27 @@
+name: AdminTools
+version: ${project.version}
+main: com.frostcraft.admintools.AdminTools
+prefix: AdminTools
+description: Admin tools for FrostCraft
+
+commands:
+  verify:
+    description: Verify yourself.
+    permission: admintools.verify
+    usage: /<command> <code>
+  vanish:
+    description: Vanish yourself.
+    permission: admintools.vanish
+    usage: /<command>
+  togglephysics:
+    description: Toggle global block physics.
+    permission: admintools.vanish
+    usage: /<command>
+  speed:
+    description: Change your flight/walking speed.
+    permission: admintools.speed
+    usage: /<command> <type> <float>
+  inventory:
+    description: Peek into another players inventory.
+    permission: admintools.inventory
+    usage: /<command> <player> [enderchest]
