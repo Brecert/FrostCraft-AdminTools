@@ -38,7 +38,7 @@ public class InventoryCommand implements CommandExecutor {
         }
 
         // TODO: Clean up and make it easier to understand.
-        if (args[1] != null) {
+        if (args.length >= 2) {
             if (args[1].startsWith("ender")) {
                 player.openInventory(inventoryPlayer.getEnderChest());
             } else {
