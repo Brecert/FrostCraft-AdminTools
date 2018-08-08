@@ -24,6 +24,7 @@ public final class AdminTools extends JavaPlugin {
         getCommand("speed").setExecutor(new SpeedCommand(this));
         getCommand("inventory").setExecutor(new InventoryCommand(this));
         getCommand("tpl").setExecutor(new TplCommand(this));
+        getCommand("gm").setExecutor(new GmCommand(this));
     }
 
     @Override

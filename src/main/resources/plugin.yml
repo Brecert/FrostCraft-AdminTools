@@ -29,3 +29,7 @@ commands:
     description: Teleport to a player directly.
     permission: admintools.tpl
     usage: /<command> <player>
+  gm:
+    description: Toggle between creative and survival mode.
+    permission: admintools.gm
+    usage: /<command>
