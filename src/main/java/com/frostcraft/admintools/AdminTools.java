@@ -23,6 +23,7 @@ public final class AdminTools extends JavaPlugin {
         getCommand("togglephysics").setExecutor(new TogglePhysicsCommand(this));
         getCommand("speed").setExecutor(new SpeedCommand(this));
         getCommand("inventory").setExecutor(new InventoryCommand(this));
+        getCommand("tpl").setExecutor(new TplCommand(this));
     }
 
     @Override

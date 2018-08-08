@@ -25,3 +25,7 @@ commands:
     description: Peek into another players inventory.
     permission: admintools.inventory
     usage: /<command> <player> [enderchest]
+  tpl:
+    description: Teleport to a player directly.
+    permission: admintools.tpl
+    usage: /<command> <player>
